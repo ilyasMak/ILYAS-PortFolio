@@ -1,0 +1,1034 @@
+
+#r93{display:none ; }
+body{
+color : white ;
+font-family : sans-serif ;
+
+
+ background-color : #15202B;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#ENV{
+position :relative ;
+/*margin-left : 15rem ;*/
+
+
+
+
+   color : white ;
+   box-shadow :5px 10px 30px black ;
+
+   background-color : black ;
+   font-size :15px ;
+   padding : 16px 35px ;
+   border-radius : 35px ;
+   border : 2px solid grey ;
+   letter-spacing : 2px ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#CNTact{
+
+
+
+     display : none ;
+      position :relative ;
+     top : 10rem ;
+      margin-left : 5rem ;
+
+
+
+
+}
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#ENV:hover {
+
+ color : black ;
+   font-size :20px ;
+   background-color : white ;
+    border : 3px solid black ;
+    transition : all 1s ;
+    box-shadow :5px 12px 35px black ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.cnt{
+ border-radius : 35px ;
+ font-size : 20px ;
+ color : white ;
+ background-color : black;
+ width :320px ;
+ height : 30px ;
+  box-shadow :5px 10px 30px black ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.bigcnt{
+ border-radius : 35px ;
+ font-size : 20px ;
+ color : white ;
+ background-color : black ;
+ width :320px ;
+ height : 200px ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#big {
+ position : relative  ;
+top : -6rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#cnt2 {
+ position : relative ;
+ margin-left : 60px ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.rdShadow{
+  text-shadow: 1px 1px 20px red;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#ftitle{
+  font-size : 7rem ;
+  margin-left : 2rem ;
+   font-family :Tahoma ;
+   position : relative ;
+   bottom : -17rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.bigTitle{
+   margin-left : 37rem;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#desc{
+  position : absolute ;
+  margin-left : 28rem;
+  bottom : 5rem ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#first {
+  position : fixed ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+/*#inter{
+  position : absolute ;
+  margin-left : 3rem ;
+  top : 40rem ;
+
+}*/
+
+.fix {
+   position : fixed  ;
+   z-index : 100 ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#menu {
+
+  position : absolute ;
+  top :0.5rem ;
+   font-size :  1.7rem ;
+   margin-left : 39rem ;
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+#media {
+  position : absolute ;
+  margin-left : 9rem ;
+  top : 1rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+
+h2{
+  color : red;
+  text-decoration : underline;
+  font-family : cursive ;
+  font-size : 25px ;
+  text-shadow: 2px 2px 24px red;
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+
+#pers{
+  display : none ;
+  position : relative ;
+  top : 9rem ;
+  margin-left : 5rem ;
+
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+
+#prof{
+
+   display : none ;
+    position :relative ;
+    top : 10rem ;
+    margin-left : 5rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.m{
+  padding : 0.5rem ;
+  font-size : 20px ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+button{
+  background :transparent ;
+  border : none ;
+  color : white ;
+  font-size : 1.6rem ;
+  cursor : pointer;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+button:hover{
+   background :transparent ;
+    border : none ;
+    color : red ;
+    font-size : 25px ;
+    transition : 1s ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+
+.m:hover {
+ border-bottom : red solid 0.3rem ;
+ color : red;
+ box-shadow :  1px 4px 6px red;
+ border-radius : 35px ;
+ transition : all 1s ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.m:focus{
+text-shadow :5px 12px 25px red;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+#redCy{
+  position : absolute ;
+  margin-left : 35rem ;
+  top : 15rem ;
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.fb{
+  font-size : 1rem ;
+  text-decoration : none ;
+  color :white ;
+  position : absolute ;
+  margin-left : 0.7rem ;
+  border-radius :35px ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.inst{
+  position : absolute ;
+    margin-left : 0.7rem ;
+
+  font-size : 1rem ;
+    text-decoration : none ;
+    color :white ;
+    border-radius :35px ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.inst:hover{
+background-color : pink ;
+transition : 1s ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.in{
+font-size : 1rem ;
+    text-decoration : none ;
+    color :white ;
+     position : absolute;
+     margin-left :0.7rem ;
+    border-radius :35px;
+    text-align : start ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.in:hover{background-color : blue ;
+transition : 1s ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+#wtspp{
+  font-size : 1rem ;
+      text-decoration : none ;
+      color :white ;
+      border-radius :35px ;
+      position : absolute;
+      top : 3.8rem ;
+      margin-left : 1.5rem ;
+      cursor : pointer ;
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#disc{
+   position : absolute ;
+   top : 27rem ;
+   margin-left : 3rem ;
+   line-height : 0.2rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+#wtspp:hover {
+
+background-color : green ;
+transition : 1s ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.fb:hover{
+  background-color : navy ;
+  transition : 1s;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#me{
+   position : absolute ;
+    margin-left : 44rem ;
+    top : 12rem ;
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#me:hover {
+   transform : scale(1.1) rotate(10deg);
+       transition: 1s ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+.cv{
+   position :relative ;
+   bottom : -22.5rem ;
+   margin-left : 4rem ;
+   color : white ;
+   box-shadow :5px 12px 35px black ;
+   text-decoration : none ;
+   background-color : black ;
+   font-size :20px ;
+   padding : 16px 35px ;
+   border-radius : 35px ;
+   border : 2px solid grey ;
+   letter-spacing : 2px ; 
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.cv:hover{
+  color : black ;
+  font-size :25px ;
+  background-color : white ;
+   border : 3px solid black ;
+   transition : all 1s ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#mode1 {
+
+  position : absolute ;
+  margin-left : 19rem ;
+  top : 0.5rem ;
+  cursor :pointer ;
+  z-index :100 ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#mode2{
+  display : none ;
+  position : absolute ;
+  margin-left : 18rem ;
+  top : 0.5rem ;
+  cursor :pointer ;
+  z-index :100 ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#lgIl{
+  position : fixed ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#linksPhone{
+display : none ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#degImgs{
+ display : flex ;
+  justify-content :space-around;
+}
+cr1{
+
+   border-radius :30px ;
+   border : 3px solid black;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#cr1:hover{
+  height :300px ;
+  width :480px ;
+  position : relative;
+     margin-left: 3rem ;
+
+
+     transition : all 1s ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#cr2{
+
+
+     border-radius :30px ;
+      border : 3px solid black;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#cr3{
+
+     border-radius :30px ;
+      border : 3px solid black;
+      z-index : 100 ;
+
+}
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+/*
+#nxt{
+   position : relative;
+       top : -20rem ;
+        margin-left:75rem ;
+}*/
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+/*
+#back{
+ position : relative;
+        top : -20rem ;
+        margin-left: -75rem ;
+
+
+
+}*/
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.ptT{
+  padding : 10px 35px ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+
+
+
+
+#det{
+  position : relative;
+  display : flex ;
+  justify-content :space-around;
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+#det1{
+max-height : 0 ;
+overflow : hidden ;
+transition : max-height 0.5s ease-out ;
+}
+
+#det1.show{
+max-height : 1300px ;
+max-width : 2000px ;
+transition : max-height 0.5s ease-in ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.detPrg{
+ width : 25rem;
+ background-color : black ;
+ border-radius :35px ;
+ padding : 5px 5px ;
+ box-shadow :5px 12px 35px black ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.dettit{
+ text-decoration : underline ;
+  position : relative ;
+   margin-left : 8rem ;
+
+}
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.prfdr{
+ position:relative ;
+ margin-left :3rem ;
+ border-radius : 30px ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+#detb{
+  position : relative ;
+  margin-left : 5rem ;
+  padding : 2px 5px ;
+  
+  border-radius : 30px ;
+  text-decoration : underline ;
+  font-family : optima ;
+  font-size : 15px ;
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#detb2{
+  position : relative ;
+  margin-left : 5rem ;
+  padding : 2px 5px ;
+
+  border-radius : 30px ;
+  text-decoration : underline ;
+  font-family : optima ;
+  font-size : 15px ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#lglink{
+ border-radius : 100%;
+ position : absolute ;
+ top : 20rem;
+ margin-left :83rem ;
+ z-index : 100 ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#lgmail{
+ border-radius : 100%;
+ position : absolute ;
+ top : 23rem;
+ margin-left :83rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#lgfb{
+   border-radius : 100%;
+   position : absolute ;
+   top : 26rem;
+   margin-left :83rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#NamePhone{
+  position : relative ;
+  margin-left : 3rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#barPhone{
+  background-color : #800000;
+  color : white ;
+  border-radius : 35px ;
+  font-size : 25px ;
+  position : relative ;
+  top : -1.5rem ;
+  margin-left : 2rem ;
+  box-shadow :  2px 4px 5px #800000;
+  font-family : tahoma ;
+  display : none ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#pntC{
+
+    display :none ;
+  position : absolute ;
+  margin-left : 17rem ;
+  top : 0.42rem ;
+  z-index : 100 ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+  #menuPh{
+   display : none ;
+   position : absolute ;
+   top : -20rem ;
+   }
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #frmBT{
+   border-radius :100%;
+
+
+   }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #txtper{
+    position : absolute ;
+    margin-left : 11rem ;
+    top : 0.5rem ;
+    font-size : 22px;
+
+   }
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+  #prfPH{
+
+   border-radius : 80%;
+  }
+  /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+  #prjPhone{display:none ;}
+
+
+  #frc{
+   position : absolute ;
+   margin-left : 24rem ;
+   top : 0.7rem ;
+   border-radius : 100% ;
+  }
+  /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+  #ENG{
+         position : absolute ;
+         margin-left : 23rem ;
+         top : 0.7rem ;
+         border-radius : 100% ;
+         display : none
+
+        }
+        /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+/*___________________________________________________________________________________________________________________________________*/
+@media only  screen and (max-width : 800px){
+
+
+
+
+   #Im{
+   font-size : 40px;
+   }
+
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+   #DpPHONE{
+   position : relative  ;
+   margin-left : -4rem ;
+   }
+      /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#ctfPHONE{
+ position : relative ;
+ margin-left : -4rem ;
+ top : -5rem ;
+}
+  /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+ #degImgs{
+  display : inline-block  ;
+  position : relative ;
+   margin-left : -3.5rem ;
+ }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+ #cr1{
+ position : relative ;
+ margin-left : -1rem ;
+ top : -5rem ;
+   width : 20rem ;
+   height : 10rem ;
+   transition:none ;
+ }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+ #cr1:hover{
+  transition:none ;
+ }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+  #cr2{
+   position : relative ;
+   margin-left : 2.75rem ;
+   top : -6rem ;
+    width : 10rem ;
+    height : 5rem ;
+  }
+    /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #cr3{
+    position : relative ;
+    margin-left : 2.75rem ;
+    top : -4rem ;
+     width : 10rem ;
+     height : 5rem ;
+   }
+     /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+   #back {
+   width : 2.25rem ;
+        height : 2.25rem ;
+    position : relative;
+    top : -5rem ;
+    margin-left : 6.75rem ;
+    transform :rotate(90deg);
+    z-index:100 ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#nxt{
+         width : 2rem ;
+        height : 2rem ;
+        position : relative;
+         bottom : 3rem ;
+    margin-left :-6.25rem ;
+    transform :rotate(90deg);
+    z-index:100 ;
+   }
+    /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+ /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+  /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+         /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+
+  /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+
+
+
+
+
+
+
+
+
+  #frc {
+   position : absolute ;
+   margin-left : 18.75rem ;
+   top : 5rem ;
+
+  }
+  /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+  #ENG{position : absolute ;
+          margin-left : 17.75rem ;
+          top : 5rem ;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #pntC{
+     display : block ;
+     z-index : 150 ;
+
+   }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #barPhone{
+     display : block ;
+
+   }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #mode1{
+     position :absolute ;
+     margin-left : -2.5rem ;
+     top : -5rem  ;
+   }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #mode2{
+        position :absolute ;
+        margin-left : -3.4rem ;
+        top : -5rem  ;
+
+      }
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.hmlg{
+width : 15px;
+height : 15px;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+  button{
+  font-size : 1rem ;
+  }
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+     .profil {
+       display : none ;
+     }
+     /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+     #media{
+       display : none ;
+     }
+     /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+     #ftitle{
+      font-size : 70px ;
+     position :relative ;
+     margin-left : 0rem ;
+     top :20rem;
+     }
+     /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+     #disc{
+     font-size : 10px ;
+     position :relative ;
+     top :20rem;
+     margin-left : 1rem ;
+     }
+     /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+     .cv{
+     font-size : 12px ;
+     position :relative ;
+          top :21rem;
+           margin-left : 1rem ;
+     }
+     /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+    #picRED{
+      height : 200px ;
+         width : 300px ;
+         position : relative ;
+         margin-left : -36rem ;
+         top : -3rem ;
+
+
+
+    }
+    /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+    #picMe{
+     height : 200px ;
+     width : 200px;
+     position : relative ;
+     margin-left : -43rem ;
+     top : -2rem ;
+    }
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+    #me:hover{
+
+                transition: none ;
+    }
+    /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+    #lglink{
+
+            position : absolute  ;
+            margin-left : 17rem ;
+            top : 8rem ;
+    }
+    /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+    #lgmail{
+     position : absolute ;
+        margin-left :17rem ;
+        top : 11rem ;
+    }
+    /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+    #lgfb{
+    position : absolute ;
+            margin-left :17rem ;
+            top : 14rem ;
+    }
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+    #menu{
+      display : none ;
+       }
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #menuPh{
+   display : none;
+    background-color : black ;
+    position :absolute ;
+    margin-left :12rem ;
+    top :2rem ;
+
+   }
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #me:hover{
+    transform : none ;
+   }
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   #pers{
+    font-size : 15px ;
+
+    /*text-align: start;*/
+    position : relative ;
+    margin-left : 0rem ;
+    margin-right : 2rem ;
+    top : 1rem ;
+   }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+   h2{
+     font-size : 19px ;
+   }
+   /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+    #prfPH{
+      width : 7rem ;
+      height : 7rem ;
+      position : relative ;
+      top : -1rem ;
+
+     }
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+      #txtper{
+
+        font-size : 10px;
+        position : relative  ;
+        margin-left : 0.25rem ;
+        top : -1rem ;
+
+
+       }
+       /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+       #compPhone{
+     position : relative ;
+         margin-left : -5rem ;
+
+         top : -7rem ;
+       }
+       /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+       #profil{
+        width : 27px ;
+        height : 27px ;
+        position : absolute ;
+        top : -4.6rem ;
+        margin-left : 2.5rem ;
+       }
+
+
+
+
+
+
+
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+
+
+         #prjPc{ display :none ;}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+        #prjPhone{
+        display:block ;
+        position : relative ;
+                      top : -6rem ;
+                      margin-left :-6rem ;
+
+        }
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+     #titPrj{
+     position : relative ;
+     top :-7rem ;
+     margin-left : -5rem ;
+     }
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+     #detPHONE{
+      position : relative ;
+      top :-6rem ;
+      margin-left : -4rem ;
+     }
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#det{
+
+  display : inline-block ;
+  position : relative ;
+  margin-left :0rem ;
+  /*width : 200 px ; */
+  font-size : 15px ;
+
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.detPrg{width : 18rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.dettit{
+  position : relative ;
+    margin-left : 5.5rem ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+.prfdr{
+position : relative ;
+    margin-left : 0.25rem ;
+
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+label{display :none ;}
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#CNTact{
+ position: relative ;
+ margin-left: 0rem ;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#r93{display:block }
+
+    }
+
+
+
+
+
