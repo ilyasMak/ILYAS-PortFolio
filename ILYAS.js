@@ -1,6 +1,6 @@
 
 
-
+//
     function h(){
       document.getElementById("firstBar").style.display="block";
       /*document.getElementById("profil").style.top="-0.7rem";
