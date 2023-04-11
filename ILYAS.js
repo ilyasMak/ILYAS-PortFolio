@@ -272,7 +272,7 @@ var cntName=document.getElementById("cnt").style.color ="red";
 
 
 function Dative(){
-  document.getElementById("picMe").src="C:/Users/pc/Downloads/ProfilePictureMaker (4).png"
+  
   document.getElementById("CNTact").style.backgroundImage="url('me_files/Contact dark.jpg')";
   document.getElementById("car2").style.color="white";
   document.getElementById("car3").style.color="white";
