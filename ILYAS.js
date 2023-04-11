@@ -160,7 +160,7 @@
 
 
 function Active(){
-  document.getElementById("picMe").src="C:/Users/pc/Downloads/ProfilePictureMaker (7).png";
+  
 
   document.getElementById("car2").style.color="black";
   document.getElementById("car3").style.color="black";
