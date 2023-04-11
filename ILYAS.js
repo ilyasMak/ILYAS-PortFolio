@@ -238,6 +238,7 @@ var cntName=document.getElementById("cnt").style.color ="red";
     //------------------------------------------------------
     ttImage.src="me_files/tt lite.png";
     prfImage.src="me_files/prf lite.png";
+    //bravo
     hmImage.src="me_files/hm bl.png" ;
    prsImage.src="me_files/prs lite.png" ;
    // wtsp.style.color = "black" ;
