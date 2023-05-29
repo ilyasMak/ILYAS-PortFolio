@@ -678,7 +678,7 @@ top : -6rem ;
 /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 #ftitle{
   font-size : 7rem ;
-  margin-left : 2rem ;
+  margin-left : 2%;
    font-family :Tahoma ;
    position : relative ;
    bottom : -17rem ;
@@ -722,7 +722,7 @@ top : -6rem ;
   position : absolute ;
   top :0rem ;
    font-size :  1.7rem ;
-   margin-left : 39rem ;
+   margin-left : 40% ;
 
 
 }
@@ -884,9 +884,9 @@ transition : 1s ;
 /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 
 #disc{
-   position : absolute ;
-   top : 27rem ;
-   margin-left : 3rem ;
+   position : relative ;
+   top : 17rem ;
+   margin-left : 5% ;
    line-height : 0.2rem ;
 }
 /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
@@ -907,7 +907,7 @@ transition : 1s ;
 /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 #me{
    position : absolute ;
-    margin-left : 46rem ;
+    margin-left : 50% ;
     top : 12rem ;
 
 
@@ -923,8 +923,8 @@ transition : 1s ;
 
 .cv{
    position :relative ;
-   bottom : -22.5rem ;
-   margin-left : 4rem ;
+   bottom : -18.5rem ;
+   margin-left : 5% ;
    color : white ;
    box-shadow :5px 12px 35px black ;
    text-decoration : none ;
@@ -948,7 +948,7 @@ transition : 1s ;
 #mode1 {
 
   position : absolute ;
-  margin-left : 19rem ;
+  left : 22vw;
   top : 0.5rem ;
   cursor :pointer ;
   z-index :100 ;
@@ -958,7 +958,7 @@ transition : 1s ;
 #mode2{
   display : none ;
   position : absolute ;
-  margin-left : 18rem ;
+  margin-left : 20.5vw ;
   top : 0.5rem ;
   cursor :pointer ;
   z-index :100 ;
@@ -1313,7 +1313,7 @@ transition : max-height 0.5s ease-in ;
 
   #frc{
    position : absolute ;
-   margin-left : 24rem ;
+   margin-left : 27vw ;
    top : 0.7rem ;
    border-radius : 100% ;
   }
@@ -1322,7 +1322,7 @@ transition : max-height 0.5s ease-in ;
 
   #ENG{
          position : absolute ;
-         margin-left : 23rem ;
+         margin-left : 26vw ;
          top : 0.7rem ;
          border-radius : 100% ;
          display : none
@@ -1332,16 +1332,7 @@ transition : max-height 0.5s ease-in ;
 
 /*___________________________________________________________________________________________________________________________________*/
 @media only  screen and (max-width : 500px){
-  * {
-    /*box-sizing: border-box;*/
-  }
-  body {
-    /*margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    width: 100%;*/
-    /*border : solid 5px red;*/
-  }
+ 
  
   
   
@@ -1499,7 +1490,7 @@ transition : max-height 0.5s ease-in ;
    #mode1{
      position :absolute ;
      /*margin-left : -2.5rem ;*/
-     margin-left : -1% ; 
+     margin-left : -12.4% ; 
      top : -5rem  ;
    }
    /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
@@ -1570,13 +1561,20 @@ height : 15px;
      height : 200px ;
      width : 200px;
      position : relative ;
-     margin-left : -43rem ;
+     margin-left : 50% ;
      top : -2rem ;
     }
 /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
     #me:hover{
 
                 transition: none ;
+                position: absolute;
+                margin-left : 80% ;
+    }
+    #me {
+      position: relative;
+      margin-left : 220% ;
+      top :-23% ;
     }
     /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
     
@@ -1761,15 +1759,42 @@ label{display :none ;}
 
 #CNTact{
  
- /*background-image: none ; */
+ background-image: none ; 
 }
 #imcer{
   position: relative;
   display: inline-block;
+  top : -5rem ; 
+  height : 800px ; 
 }
 .cer{
   position: relative;
-  margin-left: 0;
+  margin-left: -20%;
+  height : 170px ;
+width : 272px ; 
+margin-bottom : -4rem ; 
+
+}
+.cer:hover{
+  z-index : 100 ; 
+ 
+  height : 200px ;
+  width : 320px ; 
+  transition: all 2s ;
+}
+.cerPr:hover{
+  z-index : 100 ; 
+  
+  height : 200px ;
+  width : 320px ; 
+  transition: all 2s ;
+}
+.cerPr{
+  position: relative;
+  margin-left: -20%;
+  height : 170px ;
+width : 272px ; 
+margin-bottom : -4rem ; 
 }
 #CNTact textArea {
 min-width: 200px ;
@@ -1863,7 +1888,7 @@ height: 30rem;
 #part1{
   position: relative;
   margin-top : -18%  ;
-  margin-left :-10% ;
+  margin-left :-18% ;
   width :95% ;
   font-size: 70%;
   line-height: 8%;
@@ -1871,7 +1896,7 @@ height: 30rem;
 #part2{
   position: relative;
   margin-top : -22%  ;
-  margin-left :-10% ;
+  margin-left :-18% ;
   width :95% ;
   font-size: 70%;
   line-height: 8%;
@@ -1984,14 +2009,14 @@ display: inline-block;
   .Good_cadre{
     width : 95% ; 
     position: relative;
-    margin-left :-12% ;
+    margin-left :-20% ;
     top : -2em ;
   }
   .Good_cadre2{
     width : 95% ; 
     position: relative;
     top : -2em ;
-    margin-left :-12% ;
+    margin-left :-20% ;
   }
 
 
@@ -2003,3 +2028,8 @@ display: inline-block;
 
 
     }
+
+
+
+
+
