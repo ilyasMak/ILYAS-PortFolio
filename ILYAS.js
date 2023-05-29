@@ -1,6 +1,5 @@
 
 
-//
     function h(){
       document.getElementById("firstBar").style.display="block";
       /*document.getElementById("profil").style.top="-0.7rem";
@@ -160,7 +159,7 @@
 
 
 function Active(){
-  
+  document.getElementById("picMe").src="C:/Users/pc/Pictures/Saved Pictures/me_files/me for phne.png";
 
   document.getElementById("car2").style.color="black";
   document.getElementById("car3").style.color="black";
@@ -200,34 +199,32 @@ c[i].style.color="black";
     var prfImage=document.getElementById("3");
     var ttImage=document.getElementById("4");
     var md2=document.getElementById("mode2");
-    document.getElementById("CNTact").style.backgroundImage="url('me_files/Contact lite.jpg')";
+    document.getElementById("CNTact").style.backgroundImage="url('C:/Users/pc/Pictures/Saved Pictures/me_files/Contact lite.jpg')";
     //var nxt=document.getElementById("nxt");
     // var back=document.getElementById("back");
      var det=document.getElementById("det");
      var grn=document.getElementsByClassName("detPrg");
      //document.getElementById("lglinkPC").src="C:/Users/pc/Pictures/me_files/in dr (2).png";
-     var ContImage=document.getElementById("5").src="me_files/let lite  (2).png";
+     var ContImage=document.getElementById("5").src="C:/Users/pc/Pictures/me_files/let lite  (2).png";
      var nmphn=document.getElementById("NamePhone").style.color="black";
      var detbtn=document.getElementById("detb").style.color= "black" ;
      var detbtn2=document.getElementById("detb2").style.color= "black" ;
-     var inIM=document.getElementById("lglink").src="me_files/in dr (2).png" ;
-      var infb=document.getElementById("lgfb").src="me_files/fb drk.png" ;
+     var inIM=document.getElementById("lglink").src="C:/Users/pc/Pictures/me_files/in dr (2).png" ;
+      var infb=document.getElementById("lgfb").src="C:/Users/pc/Pictures/me_files/fb drk.png" ;
 var cntName=document.getElementById("cnt").style.color ="red";
-     var inML=document.getElementById("lgmail").src="me_files/1.png" ;
-      var iconsPhone=document.getElementsByClassName("11");
+     var inML=document.getElementById("lgmail").src="C:/Users/pc/Pictures/me_files/1.png" ;
      //var ILlg=document.getElementById("profil").src="C:/Users/pc/Pictures/Saved Pictures/me_files/ilyas lttt4.png";
       var sk=document.getElementsByClassName("ktabaSk");
       for (let i=0 ; i<sk.length;i++){
         sk[i].style.color="black"
       }
-     
+     var iconsPhone=document.getElementsByClassName("11");
       document.getElementById("car1").style.color="black";
-     iconsPhone[0].src ="me_files/hm bl.png";
-     iconsPhone[1].src ="me_files/prs lite.png";
-     iconsPhone[2].src ="=me_files/prf lite.png" ;
-     iconsPhone[4].src ="me_files/tt lite.png";
-     iconsPhone[3].src ="me_files/let lite  (2).png";
-     iconsPhone[5].src =  "me_files/x (2).png"; 
+     iconsPhone[0].src ="C:/Users/pc/Pictures/me_files/hm bl.png";
+     iconsPhone[1].src ="C:/Users/pc/Pictures/me_files/prs lite.png";
+     iconsPhone[2].src ="C:/Users/pc/Pictures/me_files/prf lite.png" ;
+     iconsPhone[4].src ="C:/Users/pc/Pictures/me_files/tt lite.png";
+     iconsPhone[3].src ="C:/Users/pc/Pictures/me_files/let lite  (2).png";
 
      for (i=0; i<grn.length; i++){
        grn[i].style.background='linear-gradient(320deg ,  rgb(21, 78, 111) 0%,  rgb(69, 127, 161) 15% ,rgb(253, 253, 253)  100%)';
@@ -236,11 +233,10 @@ var cntName=document.getElementById("cnt").style.color ="red";
 
      //grn.style.background = "white";
     //------------------------------------------------------
-    ttImage.src="me_files/tt lite.png";
-    //prfImage.src="me_files/prf lite.png";
-    //bravo
-    hmImage.src="me_files/hm bl.png" ;
-   prsImage.src="me_files/prs lite.png" ;
+    ttImage.src="C:/Users/pc/Pictures/me_files/tt lite.png";
+    prfImage.src="C:/Users/pc/Pictures/me_files/prf lite.png";
+    hmImage.src="C:/Users/pc/Pictures/me_files/hm bl.png" ;
+   prsImage.src="C:/Users/pc/Pictures/me_files/prs lite.png" ;
    // wtsp.style.color = "black" ;
    // link.style.color = "black" ;
     //inst.style.color = "black" ;
@@ -272,8 +268,8 @@ var cntName=document.getElementById("cnt").style.color ="red";
 
 
 function Dative(){
-  
-  document.getElementById("CNTact").style.backgroundImage="url('me_files/Contact dark.jpg')";
+  document.getElementById("picMe").src="C:/Users/pc/Pictures/Saved Pictures/me_files/me for phne.png";
+  document.getElementById("CNTact").style.backgroundImage="url('C:/Users/pc/Pictures/Saved Pictures/me_files/Contact dark.jpg')";
   document.getElementById("car2").style.color="white";
   document.getElementById("car3").style.color="white";
   let c=document.getElementsByClassName("c1")
@@ -300,7 +296,7 @@ c[i].style.color="white";
        var prsImage=document.getElementById("2");
        var prfImage=document.getElementById("3");
        var ttImage=document.getElementById("4");
-       var ContImage=document.getElementById("5").src="me_files/letter  (2).png";
+       var ContImage=document.getElementById("5").src="C:/Users/pc/Pictures/me_files/letter  (2).png";
        //var nxt=document.getElementById("nxt");
        //var back=document.getElementById("back");
        var det=document.getElementById("det");
@@ -308,22 +304,21 @@ c[i].style.color="white";
        var nmphn=document.getElementById("NamePhone").style.color="white";
        var detbtn=document.getElementById("detb").style.color= "white" ;
          var grn=document.getElementsByClassName("detPrg");
-         //var ILlg=document.getElementById("profil").src="me_files/lg ily lt (2).png";
-         var inIM=document.getElementById("lglink").src="me_files/Sans titre (2).png" ;
+         //var ILlg=document.getElementById("profil").src="C:/Users/pc/Pictures/me_files/lg ily lt (2).png";
+         var inIM=document.getElementById("lglink").src="C:/Users/pc/Pictures/me_files/Sans titre (2).png" ;
 
-         var inML=document.getElementById("lgmail").src="me_files/mail red (2).png" ;
-         var infb=document.getElementById("lgfb").src="me_files/fb red.png" ;
+         var inML=document.getElementById("lgmail").src="C:/Users/pc/Pictures/me_files/mail red (2).png" ;
+         var infb=document.getElementById("lgfb").src="C:/Users/pc/Pictures/me_files/fb red.png" ;
                var iconsPhone=document.getElementsByClassName("11");
                var sk=document.getElementsByClassName("ktabaSk");
       for (let i=0 ; i<sk.length;i++){
         sk[i].style.color="white ";
       }
-              iconsPhone[0].src ="me_files/hm (2).png";
-              iconsPhone[1].src ="me_files/prf (2).png";
-              iconsPhone[2].src ="me_files/dg (2).png" ;
-              iconsPhone[3].src ="me_files/letter  (2).png";
-              iconsPhone[4].src ="me_files/fl (2).png";
-              iconsPhone[5].src =  "me_files/frm drk (2).png";
+              iconsPhone[0].src ="C:/Users/pc/Pictures/me_files/hm (2).png";
+              iconsPhone[1].src ="C:/Users/pc/Pictures/me_files/prf (2).png";
+              iconsPhone[2].src ="C:/Users/pc/Pictures/me_files/dg (2).png" ;
+              iconsPhone[3].src ="C:/Users/pc/Pictures/me_files/letter  (2).png";
+              iconsPhone[4].src ="C:/Users/pc/Pictures/me_files/fl (2).png";
             for (i=0; i<grn.length; i++){
               grn[i].style.background=' linear-gradient(320deg ,  rgb(26, 26, 114) 0%,  rgb(7, 7, 55) 15% , rgb(0, 0, 0) 100%)';
             }
@@ -333,10 +328,10 @@ c[i].style.color="white";
        //-------------------------------------------------------
        //back.src="C:/Users/pc/Pictures/me_files/back red.png"
         //nxt.src="C:/Users/pc/Pictures/me_files/nxt red.png";
-        ttImage.src="me_files/fl (2).png";
-           prfImage.src="me_files/dg (2).png";
-           hmImage.src="me_files/hm (2).png" ;
-          prsImage.src="me_files/prf (2).png" ;
+        ttImage.src="C:/Users/pc/Pictures/me_files/fl (2).png";
+           prfImage.src="C:/Users/pc/Pictures/me_files/dg (2).png";
+           hmImage.src="C:/Users/pc/Pictures/me_files/hm (2).png" ;
+          prsImage.src="C:/Users/pc/Pictures/me_files/prf (2).png" ;
           //____________________________________________________________________
        document.body.style.color = "white";
         //wtsp.style.color = "white" ;
@@ -414,14 +409,16 @@ c[i].style.color="white";
    document.getElementById("detb").style.display ="block" ;
 
   }
+  var i= 0
 
   function AffichPhoneMenu(){
-  var mn=document.getElementById("menuPh").style.display="block" ;
+    i++; 
+    var mn=document.getElementById("menuPh")
+  if(i%2==1) {mn.style.display="block" ;}
+  if(i%2==0) { mn.style.display="none" ;}
   }
 
-  function frmMenuPh(){
-  var mn=document.getElementById("menuPh").style.display="none" ;
-  }
+ 
 
 
 
